@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/Main.css";
 
 const Main = () => {
   return (
@@ -25,8 +26,23 @@ const Main = () => {
       <section className="extern-links-section">
         links a sitios externos
       </section>
+      <div>
+
+        <ul className="listadeEnlaces">
+          <li>
+            <img className="imglistadeenlaces" alt="TV" src="./assets/tv.cine.ar.svg" /> <span className="Barra">   │    </span>
+          </li>
+          <li>
+            <img className="imglistadeenlaces" alt="Play" src="./assets/play.cine.ar.svg" /> <span className="Barra">  │ </span>
+          </li>
+          <li>
+            <img className="imglistadeenlaces" alt="Estrenos" src="./assets/estrenos.cine.ar.svg" /> <span className="Barra"></span>
+          </li>
+        </ul>
+      </div>
     </main>
-  ;
+
+  );
 };
 
 export default Main;
